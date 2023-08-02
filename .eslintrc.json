@@ -33,7 +33,9 @@
         "react"
     ],
     "rules": {
+        "react/jsx-props-no-spreading":"off",
         "react/react-in-jsx-scope": "off",
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
     }
 }
